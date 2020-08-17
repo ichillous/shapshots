@@ -1,0 +1,25 @@
+
+#header {
+    padding-bottom: 80px;
+}
+
+#logo {
+    float: left;
+    color: wheat;
+    background: rgb(0, 173, 211);
+    padding: 1px 30px 1px 30px;
+    border-radius: 90px;
+}
+
+#menuTabs {
+    float: right;
+    padding: 10px;
+    color:white;
+    background: black;
+}
+
+#splashscreen {
+    padding: 30px;
+    font-family: 'VT323', monospace;
+    text-align: center;
+}

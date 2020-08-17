@@ -5,11 +5,10 @@
 Shapshots - Picture Generator	
 ## Project Description
 
-Posts pictures of people that users search for in the dom including title. 
+Integrating a photo generator API into a photographers splash page. 
 
 ## API and Data Sample
-[Pexels API](https://www.pexels.com/api/documentation/)
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need.
+Link : [Pexels API](https://www.pexels.com/api/documentation/)
 
 Sample JSON:
 ```json
@@ -42,20 +41,19 @@ Sample JSON:
 ```
 
 ## Wireframes
-Pictures here: 
-
+###### Pictures here:
 Website Design  https://imgur.com/gallery/JpN7IlM
 Mobile Design https://imgur.com/a/9ERvZ20
 
 
 ## Priority Matrix
-https://imgur.com/a/mV0j2Vp
+######Image Link:  https://imgur.com/a/mV0j2Vp
 
 
 #### MVP 
 
 - The search bar must be functional and asthetic.
-- API must populate a picture and remove a picture.
+- API must populate a picture and fade into homepage afterwards.
 
 #### PostMVP  
 
@@ -73,7 +71,7 @@ I want to keep this structure
 |August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 17| Project Approval | Complete
 |August 18| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 19| Initial Clickable Model  | MVP | Incomplete
+|August 19| Initial Clickable Model  | Incomplete
 |August 20| MVP touch ups | Incomplete
 |August 21| Presentations | Incomplete
 
@@ -89,15 +87,20 @@ I want to keep this structure
 | Working with API - JS| H | 10hrs|  |  |
 | Total | H | hrs|  |  |
 
-## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+## Code Snippet 
+Attempted to get a callback from postman, after some hours of research I managed to produce data within my console.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const DOMAIN = 'https://api.pexels.com/v1/search?query=people' 
+const API_KEY = '563492ad6f917000010000015ccce792a03d407c9f4d32cc165e44d9'
+const BASE_URL = `${'api.pexels.com/v1'}?apikey=${''}`
+
+async function showPicture() {
+    const resp = await axios.get(DOMAIN, { headers: {"Authorization" : `Bearer ${API_KEY}`} });
+    console.log(resp)
 }
+showPicture()
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+  
