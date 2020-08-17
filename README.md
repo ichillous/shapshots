@@ -82,10 +82,10 @@ I want to keep this structure
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| |   |
 | Working on HTML | H | 3hrs|  |   |
-| Working on CSS | H | 5hrs|  |  |
-| Working on  | H | 5hrs|  |  |
-| Working with API - JS| H | 10hrs|  |  |
-| Total | H | hrs|  |  |
+| Working on CSS | H | 8hrs|  |  |
+| Working on  Additional JS | H | 7hrs|  |  |
+| Working with API - JS| H | 13hrs|  |  |
+| Total | H | 34  hrs|  |  |
 
 ## Code Snippet 
 Attempted to get a callback from postman, after some hours of research I managed to produce data within my console.
