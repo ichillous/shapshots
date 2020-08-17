@@ -8,7 +8,7 @@ Snapshot - Picture Generator
 Posts pictures that users search for in the dom including title. 
 
 ## API and Data Sample
-[Pexels API](api.pexels.com/v1/?apikey=563492ad6f917000010000015ccce792a03d407c9f4d32cc165e44d9)
+[Pexels API](https://www.pexels.com/api/documentation/)
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need.
 
 Sample JSON:
