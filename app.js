@@ -4,6 +4,6 @@ const BASE_URL = `${'api.pexels.com/v1'}?apikey=${''}`
 
 async function showPicture() {
     const resp = await axios.get(DOMAIN, { headers: {"Authorization" : `Bearer ${API_KEY}`} });
-    console.log(resp)
+    console.log(resp.data.photos[0])
 }
 showPicture()
