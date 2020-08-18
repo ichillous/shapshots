@@ -70,8 +70,8 @@ I want to keep this structure
 |---|---| ---|
 |August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 17| Project Approval | Complete
-|August 18| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 19| Initial Clickable Model  | Incomplete
+|August 18| Core Application Structure (HTML, CSS, etc.) | Complete
+|August 19| Initial Clickable Model  | Complete
 |August 20| MVP touch ups | Incomplete
 |August 21| Presentations | Incomplete
 
@@ -80,11 +80,11 @@ I want to keep this structure
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| |   |
-| Working on HTML | H | 3hrs|  |   |
+| Adding Form | H | 3hrs| |  3hrs |
+| Working on HTML | H | 3hrs| 4hrs |   |
 | Working on CSS | H | 8hrs|  |  |
 | Working on  Additional JS | H | 7hrs|  |  |
-| Working with API - JS| H | 13hrs|  |  |
+| Working with API - JS| H | 13hrs| 13hrs |  |
 | Total | H | 34  hrs|  |  |
 
 ## Code Snippet 

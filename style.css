@@ -22,4 +22,11 @@
     padding: 30px;
     font-family: 'VT323', monospace;
     text-align: center;
+    display: inline-block;
+}
+#splashscreen img{
+    padding: 10px;
+    border: skyblue;
+    border-style: double;
+    margin: 5px;
 }
