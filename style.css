@@ -1,3 +1,6 @@
+body {
+    background: #CED3DC;
+}
 
 #header {
     padding-bottom: 80px;
@@ -15,18 +18,38 @@
     float: right;
     padding: 10px;
     color:white;
-    background: black;
+    background: #90C2E7;
 }
 
 #splashscreen {
+    position: relative;
+    text-align: center;
     padding: 30px;
     font-family: 'VT323', monospace;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    
+    background: #A31621;
 }
+#splashscreen h2, p, input, button {
+    width: 100px;
+    text-align: center;
+    flex-flow: column;
+}
+
 #splashscreen img{
     padding: 10px;
     border: skyblue;
+    display: flex;
     border-style: double;
     margin: 5px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: 10px;
+    
+    border-color: #D496A7;
 }
