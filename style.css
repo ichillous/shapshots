@@ -2,22 +2,26 @@ html {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
+    justify-content: center;
     background-image: linear-gradient(to bottom ,#2C1320 0%,#0B4F6C 50%,  #01BAEF 100%);
 }
 body {
     height: 100%;
     margin: 0;
-    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
     background-image: linear-gradient(to bottom ,#2C1320 0%,#0B4F6C 50%,  #01BAEF 100%);
+
 }
 
 #header {
     padding-bottom: 80px;
     align-items: center;
+
 }
 
 #logo {
-    float: left;
+    margin: 50px 200px 50px 200px;
     color: wheat;
     background: rgb(0, 173, 211);
     padding: 1px 30px 1px 30px;
@@ -40,7 +44,8 @@ body {
     align-items: center;
     flex-direction: column;
     flex: auto;
-    background: #A31621;
+    margin: 0px 200px  0px 200px;
+    background-image: linear-gradient(to bottom ,#2C1320 0%,#0B4F6C 50%,  #01BAEF 100%);
 }
 #splashscreen h2, p, input, button {
     width: 100px;
