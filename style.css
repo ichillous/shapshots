@@ -1,5 +1,14 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom ,#2C1320 0%,#0B4F6C 50%,  #01BAEF 100%);
+}
 body {
-    background: #CED3DC;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom ,#2C1320 0%,#0B4F6C 50%,  #01BAEF 100%);
 }
 
 #header {
@@ -23,17 +32,19 @@ body {
 
 #splashscreen {
     position: relative;
-    text-align: center;
     padding: 30px;
     font-family: 'VT323', monospace;
     text-align: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    
+    flex: auto;
     background: #A31621;
 }
 #splashscreen h2, p, input, button {
     width: 100px;
+    align-items: center;
+    display: flex;
     text-align: center;
     flex-flow: column;
 }
@@ -41,7 +52,7 @@ body {
 #splashscreen img{
     padding: 10px;
     border: skyblue;
-    display: flex;
+    display: inline-flex;
     border-style: double;
     margin: 5px;
     text-align: center;
@@ -50,10 +61,30 @@ body {
 input {
     padding: 10px;
     border: 10px;
-    
+    background:grey; 
     border-color: #D496A7;
 }
+button {
+    background: grey;
+    border-radius: 90px;
+}
 
-@media  only screen and (max-width: 812px) {
-    
+@media  only screen and (max-width: 375px) {
+    body {
+        flex-wrap: wrap;
+        display: inline;
+    }
+    #splashscreen {
+        position: relative;
+        padding: 10px;
+        font-family: 'VT323', monospace;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: auto;
+        background: #A31621;
+        width: 100%;
+    }
+
 }
