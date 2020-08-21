@@ -1,4 +1,4 @@
-const input = document.querySelector('#search')
+const input = document.querySelector('#search') //setting input var to search element
 const button = document.querySelector('#button')
 const showPics = document.querySelector('.renderPics')
 const API_KEY = '563492ad6f917000010000015ccce792a03d407c9f4d32cc165e44d9'
