@@ -21,11 +21,13 @@ body {
 }
 
 #logo {
-    margin: 50px 200px 50px 200px;
+    margin: 50px 400px 0px 400px;
     color: wheat;
     background: rgb(0, 173, 211);
     padding: 1px 30px 1px 30px;
     border-radius: 90px;
+    font-family: 'VT323', monospace;
+
 }
 
 #menuTabs {
